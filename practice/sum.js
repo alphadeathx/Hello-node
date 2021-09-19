@@ -1,12 +1,14 @@
-console.log("hello world!");
+console.log("hello world");
 
 function sum(param) {
-  let ans = 0;
+  //to do 從1加到...6
+  let total = 0;
   for (let i = 1; i <= param; i++) {
-    ans += i;
+    total += i;
   }
-  console.log(ans);
+  return total;
 }
 
-sum(6);
+let result = sum(2);
+console.log(result);
 
