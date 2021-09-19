@@ -11,4 +11,3 @@ function sum(param) {
 
 let result = sum(2);
 console.log(result);
-
