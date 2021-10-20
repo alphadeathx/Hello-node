@@ -3,6 +3,6 @@
 ## How to use
 
 ```bash
-複製 .env.example 成.env
+將 .env.example 更改為.env
 ```
 修改 .env 裡的各個設定
