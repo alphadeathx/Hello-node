@@ -54,5 +54,4 @@ for (let i = 1; i <= 10000; i++) {
 console.timeEnd("SUM2");
 
 // O(1) < O(n) < O(n^2)
-
 // reduce 可以寫出 1 + ... + n
