@@ -2,6 +2,13 @@ const express = require("express");
 
 let app = express(); // application
 
+
+
+
+app.use((req, res, next) => {
+  console.log("我是AAA中間件");
+});
+
 // 路由 route / router
 // app.Method(Path, Handler)
 // Method: GET, POST, PUT, DELETE, PATCH, ...
